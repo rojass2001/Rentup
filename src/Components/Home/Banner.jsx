@@ -14,7 +14,7 @@ const banner=[
           <div className='w-full px-3 pt-8 gap-9 grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3
           md:px-8   '>
          {banner.map((b,index)=>(
-          <div className='space-y-2 h-[200px] bg-white text-center place-items-center pt-6' key={index}>
+          <div className='space-y-2 h-[200px] bg-white  justify-center text-center place-items-center pt-6' key={index}>
            <img className="h-12 w-12"src={b.image}/>
             <p className='font-semibold text-[18px]'>{b.name}</p>
             <p>{b.property}</p>

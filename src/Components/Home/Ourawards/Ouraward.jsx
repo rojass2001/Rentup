@@ -1,9 +1,9 @@
 import { FaHeart, FaLightbulb, FaTrophy } from 'react-icons/fa'
 import { FaBagShopping } from 'react-icons/fa6'
-const icons=[{icon:<FaTrophy/>,name:"32 M",award:"Blue Burmin Award"},
-  {icon:<FaBagShopping/>,name:"43 M",award:"Australian UGC Award"},
-  {icon:<FaLightbulb/>,name:"51 M",award:"Mimo X11 Award"},
-  {icon:<FaHeart/>,name:"42 M",award:"IITCA Green Award"}, 
+const icons=[{icon:<FaTrophy className='mx-auto'/>,name:"32 M",award:"Blue Burmin Award"},
+  {icon:<FaBagShopping className='mx-auto'/>,name:"43 M",award:"Australian UGC Award"},
+  {icon:<FaLightbulb className='mx-auto'/>,name:"51 M",award:"Mimo X11 Award"},
+  {icon:<FaHeart className='mx-auto'/>,name:"42 M",award:"IITCA Green Award"}, 
 ]
 function Ourawards() {
   return (
@@ -15,9 +15,9 @@ function Ourawards() {
       <h1 className='text-[33px] mt-1'>Still They Love Our Services</h1>
       </div>
       <div className='grid gap-8 grid-cols-2 px-2 lg:px-12 md:grid-cols-4 '>
-        { icons.map((c,index)=>(
-          <div className='text-center place-items-center justify-center sm:w-full' key={index}>
-        <div className='icon h-28 place-items-center place-content-center 
+        { icons.map((c)=>(
+          <div className='text-center place-items-center justify-center' key={c.name}>
+        <div className='icon h-28 justify-center place-items-center place-content-center 
         rounded-bl-[50px] bg-slate-700 w-28 rounded-tr-[50px]'> 
         <p className='text-[38px]'>{c.icon}</p>
         </div>
