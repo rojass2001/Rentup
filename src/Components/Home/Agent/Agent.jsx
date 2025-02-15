@@ -39,7 +39,7 @@ function Agents() {
             <BiSolidMessageDetail className='text-3xl' />
             <p className='font-bold text-md'>Message</p>
         </div>
-        <button className='w-[30%] h-14 bg-black text-2xl place-items-center text-white'><FaPhone/></button>
+        <div className='w-[30%] flex place-content-center h-14 bg-black text-2xl items-center text-white'><FaPhone/></div>
         </div>
 
        </div>

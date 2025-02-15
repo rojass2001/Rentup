@@ -17,8 +17,7 @@ function Ourawards() {
       <div className='grid gap-8 grid-cols-2 px-2 lg:px-12 md:grid-cols-4 '>
         { icons.map((c)=>(
           <div className='text-center place-items-center justify-center' key={c.name}>
-        <div className='icon h-28 justify-center place-items-center place-content-center 
-        rounded-bl-[50px] bg-slate-700 w-28 rounded-tr-[50px]'> 
+        <div className=' h-28 justify-center  flex items-center place-content-center rounded-bl-[50px] bg-slate-700 w-28 rounded-tr-[50px]'> 
         <p className='text-[38px]'>{c.icon}</p>
         </div>
         <h1 className='text-3xl font-bold'>{c.name}</h1>
