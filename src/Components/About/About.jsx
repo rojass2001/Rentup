@@ -17,7 +17,7 @@ function About() {
       tempor incididunt ut labore et dolore magna aliqua. 
      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
      </p>
-     <div className='bg-green-500 px-2 mx-auto flex items-center place-content-center font-bold w-[40%] md:w-[30%] mt-4 h-[60px]
+     <div className='bg-green-500 px-2 mx-auto md:mx-0 flex items-center place-content-center font-bold w-[40%] md:w-[30%] mt-4 h-[60px]
       rounded-full text-white  '>More About Us</div>
  </div>
  <img className='md:w-[50%] w-full h-[80%]  md:h-[500px]' src="https://funny-daffodil-350bc9.netlify.app/immio.jpg" />

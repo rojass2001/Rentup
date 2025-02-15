@@ -4,12 +4,12 @@ function Properties() {
   return (
     <>
    <div className='w-full    bg-slate-100 pb-20'>
-    <div className='w-full gap-12 px-2 md:px-6  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
+    <div className='w-full py-12 gap-12 px-2 md:px-6  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
         {properarray.map((a,index)=>(
       <div className='h-[490px] bg-white  space-y-4 '  key={index}>
      <img className='w-full h-[50%]' src={a.image}/>
      <div className='w-full flex justify-between px-5'>
-      <p  className={`  text-[14px] font-bold px-2 bg-gray-300 ${a.purpose==="For Sale"?"text-green-500":"text-orange-400"}`}>
+      <p className={`text-[14px] font-bold px-2 bg-gray-300 ${a.purpose==="For Sale"?"text-green-500":"text-orange-400"}`}>
       {a.purpose}</p> 
       <p>{a.icon}</p>
      </div>
