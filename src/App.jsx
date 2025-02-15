@@ -1,13 +1,13 @@
 import { Fragment} from 'react'
 import './App.css'
-import Home from './Components/Home/Home'
+import Routings from './Routings'
 
 function App() {
  
 
   return (
     <Fragment>
-      <Home/>
+     <Routings/>
        
     </Fragment>
   )

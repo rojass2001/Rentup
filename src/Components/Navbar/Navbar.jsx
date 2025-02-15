@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import navarray from './Navarray'
 import { FaBars,  } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -16,8 +17,8 @@ function Navbar() {
   <img className ="w-[155px] h-full"src="https://funny-daffodil-350bc9.netlify.app/images/logo.png"/>
       </div>
       <div className='hidden md:flex font-medium text-[17px] gap-5 '>
-{navarray?.slice(0,5).map((a)=>(
-        <p className="hover:text-green-500 mr-3" key={a.name}>{a.name}</p>
+{navarray?.slice(0,5).map((a)=>( 
+      <Link to={a.links}><p className="hover:text-green-500 mr-3" key={a.name}>{a.name}</p></Link> 
         ))}
         
       </div>

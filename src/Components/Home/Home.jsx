@@ -6,13 +6,12 @@ import Recentlylisted from './Recentlylisted'
 import Properties from './Property/Properties'
 import Ourawards from './Ourawards/Ouraward'
 import Agents from './Agent/Agent'
-import Navbar from '../Navbar/Navbar'
-import Footer from './Footer/Footer'
+
 
 function Home() {
   return (
     <div className='w-full'>
-    <Navbar/>
+    
       <Hero/>
       <Propertytype/>
       <Banner/>
@@ -20,7 +19,7 @@ function Home() {
       <Properties/>
       <Ourawards/>
       <Agents/>
-      <Footer/>
+    
     </div>
   )
 }
