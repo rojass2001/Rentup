@@ -30,7 +30,7 @@ function Hero() {
         <div className='text-md font-bold text-black'>
         <p className='mt-2 '> Advanced </p>
         <p >Filter</p></div>
-    <div className='w-16 rounded-lg place-content-center place-items-center h-14 bg-green-500 my-auto '>
+    <div className='w-16 flex items-center rounded-lg place-content-center  h-14 bg-green-500 my-auto '>
         <IoSearchSharp className='text-white' size={28}/>
     </div>
     </div>

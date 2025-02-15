@@ -19,7 +19,7 @@ function Agents() {
         h-14 bg-orange-600'>
          {c.listing}
         </div>
-      <div className='w-full mt-2 place-items-center justify-center text-center'>
+      <div className='w-full flex bg-amber-400 mt-2 items-center  place-content-center'>
         <img className="rounded-full  p-2 border-4 border-slate-300 w-[120px] h-[120px] "
         src={c.image}/>
      </div>
