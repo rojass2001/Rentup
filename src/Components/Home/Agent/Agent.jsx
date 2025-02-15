@@ -15,9 +15,9 @@ function Agents() {
          <div className='w-full px-2 mt-12 grid  gap-9 grid-cols-1 lg:grid-cols-3 lg:px-24  md:px-12  md:grid-cols-2 '>
 { agent.map((c,index)=>(
             <div className='px-5 bg-white  py-8 ' key={index}>
-       <div className=' w-[140px] flex items-center text-white font-bold text-[16px] rounded-full
-        place-content-center h-14 bg-orange-600'>
-         <p>{c.listing}</p>
+       <div className=' w-[140px] flex items-center  place-content-center text-white font-bold text-[16px] rounded-full
+        h-14 bg-orange-600'>
+         {c.listing}
         </div>
       <div className='w-full mt-2 place-items-center'>
         <img className="rounded-full  p-2 border-4 border-slate-300 w-[120px] h-[120px] "
