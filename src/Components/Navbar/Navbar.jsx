@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { useState } from 'react'
 import navarray from './Navarray'
 import { FaBars,  } from 'react-icons/fa'
@@ -32,8 +33,8 @@ function Navbar() {
       <div className='w-[90%] absolute py-10   top-20 rounded-lg right-5 left-5  bg-green-500'>
         
         {navarray?.map((b)=>(
-          <p className='text-2xl font-bold mb-6 text-white text-center' key={b.name} onClick={openandclose}>
-            {b.name}</p>
+          <Link to={b.links}><p className='text-2xl font-bold mb-6 text-white text-center' key={b.name} 
+          onClick={openandclose}> {b.name}</p></Link>
        
       ))}
     
