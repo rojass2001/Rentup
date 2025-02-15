@@ -7,6 +7,7 @@ import Properties from './Property/Properties'
 import Ourawards from './Ourawards/Ouraward'
 import Agents from './Agent/Agent'
 import Navbar from '../Navbar/Navbar'
+import Footer from './Footer/Footer'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Properties/>
       <Ourawards/>
       <Agents/>
+      <Footer/>
     </div>
   )
 }
