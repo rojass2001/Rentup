@@ -1,11 +1,8 @@
 import Pageheading from "../Pageheading"
-
 function Contact() {
   return (
     <div className="w-full">
-    <Pageheading mainhead="Contact Us" subhead="Get Helps & Friendly Support"/>
-   
-    
+    <Pageheading  mainhead="Contact Us" subhead="Get Helps & Friendly Support"/>
     <div className='w-full  bg-white py-20  px-2 md:px-12 '>
         <form className='w-full space-y-3 bg-white shadow-md shadow-gray-400 py-12 px-1 md:px-[100px]'>
         <p className='font-bold mb-5 text-center md:text-start  text-[24px]'>Fill Up The Form</p>

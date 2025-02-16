@@ -24,8 +24,8 @@ function Navbar() {
         
       </div>
      
-      <button className='bg-green-500 hidden md:block  rounded-lg w-32 h-[50px] text-md
-       text-white font-bold ' >Sign in</button>
+     <Link to="/login"> <button className='bg-green-500 hidden md:block  rounded-lg w-32 h-[50px] text-md
+       text-white font-bold ' >Sign in</button></Link>
     
       <div className='md:hidden flex place-content-center items-center bg-green-500 rounded-lg w-28 h-[80%] text-[30px] text-white 
       font-bold  ' onClick={openandclose}><FaBars/></div>
