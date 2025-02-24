@@ -1,9 +1,10 @@
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
-import Footer from './Components/Home/Footer/Footer';
+import { Fragment } from 'react';
+import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import { Fragment } from 'react';
+
 import Service from './Components/Service/Service';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';

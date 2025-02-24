@@ -1,3 +1,4 @@
+import Contactfooter from "./Contactfooter"
 
 const layouts=["Home Page","About Page","Service Page","Property Page","Contact Page","Single Blog"]
 const allsection=["Headers","Features","Attractive","Testimonials", "Videos"," Footer"]
@@ -8,6 +9,7 @@ function Footer() {
   return (
     <>
     <div className='w-full'>
+      <Contactfooter/>
     <div className=' w-full justify-center place-items-center grid py-5 px-3  gap-x-3 gap-y-10 text-white grid-cols-2  md:grid-cols-4 bg-slate-800' >
     <div className='space-y-3  px-2 h-[300px]' >
       <img className="w-[70%] h-9"src="https://funny-daffodil-350bc9.netlify.app/images/logo-light.png"/>
